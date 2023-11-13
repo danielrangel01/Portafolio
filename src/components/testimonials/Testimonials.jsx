@@ -1,5 +1,5 @@
 import React from "react";
-import AVTR1 from "../../assets/avatar1.jpg";
+import AVTR1 from "../../assets/stiven-profile.jpg";
 import AVTR2 from "../../assets/avatar2.jpg";
 import AVTR3 from "../../assets/avatar3.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
@@ -17,27 +17,15 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Rachel Stain",
+    name: "Stiven Jimenez",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi unde cupiditate repellendus ut impedit atque deleniti a mollitia optio laboriosam.",
+      "Durante mi tiempo trabajando con Daniel en nuestro proyecto, he observado su habilidad para resolver problemas complejos y adaptarse rápidamente a nuevas tecnologías. Su compromiso con la calidad del código y su facilidad para trabajar en equipo son notables.",
   },
   {
     avatar: AVTR2,
-    name: "Louis Litt",
+    name: "Rafael Prieto",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi unde cupiditate repellendus ut impedit atque deleniti a mollitia optio laboriosam.",
-  },
-  {
-    avatar: AVTR3,
-    name: "Mike Ross",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi unde cupiditate repellendus ut impedit atque deleniti a mollitia optio laboriosam.",
-  },
-  {
-    avatar: AVTR4,
-    name: "Dona Pilsen",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi unde cupiditate repellendus ut impedit atque deleniti a mollitia optio laboriosam.",
+    "Durante mi tiempo trabajando con Daniel en nuestro proyecto, he observado su habilidad para resolver problemas complejos y adaptarse rápidamente a nuevas tecnologías. Su compromiso con la calidad del código y su facilidad para trabajar en equipo son notables.",
   },
 ];
 

@@ -21,13 +21,13 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>10+ Worldwide</small>
-            </article>
+            </article> */}
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
@@ -35,11 +35,16 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-            exercitationem nisi magnam rem libero accusantium, praesentium
-            obcaecati necessitatibus perferendis eius voluptatibus, corrupti
-            iusto consequatur mollitia repudiandae eligendi natus! Fugit,
-            deserunt?
+            Soy un profesional apasionado Developer. Mi enfoque se basa en la excelencia y la eficiencia,
+            buscando siempre superar las expectativas y entregar resultados de
+            calidad. Poseo habilidades destacadas en FrontEnd con ReactJS.
+            Soy creativo, orientado a soluciones y tengo una sólida capacidad de
+            comunicación y trabajo en equipo. Estoy constantemente buscando
+            oportunidades para aprender y crecer profesionalmente. Creo
+            firmemente en la ética laboral, la integridad y el trabajo en
+            equipo. Mi objetivo es contribuir de manera significativa al éxito
+            de la organización, aportando mis habilidades, conocimientos y
+            pasión
           </p>
 
           <a href="#contact" className="btn btn-primary">
