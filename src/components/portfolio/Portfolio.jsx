@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG1 from "../../assets/chatApp.png";
+import IMG2 from "../../assets/pokedexApp.png";
+import IMG3 from "../../assets/criptoApp.png";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
@@ -16,19 +16,12 @@ const portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="IMG1" />
+            <img src={IMG1} alt="IMG1" className="img__proyect" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Chat App React Native</h3>
           <div className="portfolio__item-cta">
-            <a href="http://github.com" className="btn">
+            <a href="https://github.com/danielrangel01/ChatApp-Front" className="btn">
               Github
-            </a>
-            <a
-              href="http://github.com"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
             </a>
           </div>
         </article>
@@ -36,17 +29,10 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="IMG1" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Pokedex React Native</h3>
           <div className="portfolio__item-cta">
-            <a href="http://github.com" className="btn">
+            <a href="https://github.com/danielrangel01/Pokedex" className="btn">
               Github
-            </a>
-            <a
-              href="http://github.com"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
             </a>
           </div>
         </article>
@@ -54,13 +40,13 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="IMG1" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Cotiza Criptomonedas al Instante</h3>
           <div className="portfolio__item-cta">
             <a href="http://github.com" className="btn">
               Github
             </a>
             <a
-              href="http://github.com"
+              href="https://objective-hoover-ce5afa.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -68,6 +54,7 @@ const portfolio = () => {
             </a>
           </div>
         </article>
+        
 
       </div>
     </section>
